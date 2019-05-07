@@ -1,0 +1,194 @@
+.tweetsContainer {
+    background : antiquewhite;
+    flex-wrap : wrap;
+    position : relative;
+    display : flex;
+    flex-direction : row;
+    justify-content: center;
+    transition: height 2s;
+}
+
+.tweetOuterBox {
+    max-width: 500px;
+    min-width : 500px;
+    min-height : 300px;
+    margin: 30px 15px auto;
+    padding : 5px;
+    border-radius : 10px;
+}
+
+
+.alternativeBackground:nth-child(5n) {
+    background: #E76F51;
+}
+.alternativeBackground:nth-child(5n+1) {
+    background: #2A9D8F;
+}
+.alternativeBackground:nth-child(5n+2) {
+    background: #E9C46A;
+}
+.alternativeBackground:nth-child(5n+3) {
+    background: #F4A261;
+}
+
+.alternativeBackground:nth-child(5n+4) {
+    background: #4ab1c1;
+}
+
+.tweetInnerHeading {
+    display : flex;
+    padding : 0;
+    margin-bottom: 10px;
+
+}
+
+
+.tweetInnerHeading .name {
+    width : 80%;
+
+}
+
+.tweetInnerHeading .name p{
+    padding : 0;
+
+    overflow: hidden;
+    font-size:200%;
+    font-weight: bold;
+    color : white;
+    /*line-height : 12px;*/
+
+}
+
+
+.tweetInnerHeading .savebutton {
+    margin : auto;
+}
+
+
+.tweetTime p{
+    /*line-height : 18px;*/
+    margin-bottom: 20px;
+}
+
+.tweetInnerData {
+
+    text-align : left;
+    justify-content : center;
+}
+
+
+.tweetInnerData p{
+    font-size:160%;
+    padding : 0px;
+    color: white;
+    word-wrap: break-word;
+    
+    font-family:courier;
+}
+
+
+.searchedQuery {
+    position: relative;
+    height: 35px;
+    padding-left: 5px;
+
+}
+
+.spinner{
+    position: absolute;
+    right : 8%;
+    top : -50%;
+}
+
+
+.div_empty{
+    display: flex;
+    justify-content : center;
+    align-items : center;
+    width: 100%;
+    height : 80vh;
+}
+
+.div_empty h1{
+
+}
+
+/*User Profile styles*/
+
+
+.contain{
+
+}
+
+
+.profileBox {
+    display: flex;
+    background-color: darksalmon;
+    border-radius: 10px;
+    border-color: #E8E8E8;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.profileLeft {
+    margin: 5px 10px;
+    flex : 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-right-width: thick;
+    border-color: white;
+}
+
+.profileLeft img{
+
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+}
+
+
+th{
+    text-align: left;
+}
+
+.profileRight {
+    display: flex;
+    flex: 2;
+    flex-direction: row;
+    padding-left: 20px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+.contentBlock {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+.archiveHeading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: lightyellow;
+    border-radius: 10px;
+}
+
+
+.archiveHeading h4{
+    font-weight: bold;
+    font-family: FreeSans;
+}
+
+hr .vertical {
+    color: white;
+    width: 112px;
+    height: 80%;
+
+}
