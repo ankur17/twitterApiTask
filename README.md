@@ -22,7 +22,7 @@ User may archive any of the tweets they want. The archived tweets are seen on th
 The last search is stored in the database. So next time when the user comes, it is shown that last searched tweets.
 
 
-Run Project
+### Run Project
 ***
 ```
 git clone https://github.com/ankur17/twitterApiTask
